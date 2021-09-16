@@ -1,0 +1,13 @@
+{
+    "full_name": "Mike Cuoco",
+    "email": "mcuoco@ucsd.edu",
+    "github_username": "mikecuoco",
+    "author_name": "First author of the project",
+    "year": "Year of project",
+    "doi": "Digital object identifier",
+    "project_short_description": "A short description of your project",
+    "project_slug": "{{ cookiecutter.author_name.replace(' ', '-') + '-' + cookiecutter.year.replace(' ', '-') }} ",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
