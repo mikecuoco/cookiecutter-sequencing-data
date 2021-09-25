@@ -1,6 +1,8 @@
 Raw and preprocessed data from {{cookiecutter.project_slug}}
 ===========================================================
-{{cookiecutter.project_short_description}}
+
+Data from: 
+{{cookiecutter.bib}}
 
 
 ## Authors
